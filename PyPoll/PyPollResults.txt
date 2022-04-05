@@ -1,0 +1,11 @@
+-------------------------
+Election Results
+-------------------------
+Total Votes: 369,711
+-------------------------
+Diana DeGette: 272,892 | 73.81%
+Charles Casper Stockham: 85,213 | 23.05%
+Raymon Anthony Doane: 11,606 | 3.14%
+-------------------------
+Winner: Raymon Anthony Doane
+Note: Diana DeGette is the actual winner. I do not know why the max function returns the lowest vote count. I think it might be because this is the last person in the dataset, as currently sorted, and the max function is somehow pulling the the maximum row instead of the maximum value computed earlier.
